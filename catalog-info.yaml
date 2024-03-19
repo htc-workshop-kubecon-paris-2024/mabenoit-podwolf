@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mabenoit-podwolf"
+  annotations:
+    "humanitec.com/orgId": "kubecon-paris-2024"
+    "humanitec.com/appId": "mabenoit-podwolf"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
